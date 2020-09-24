@@ -59,6 +59,8 @@ Just run below five commands one after another :
 
 `su -`
 
+`yum install wget -y`
+
 `mkdir /media/script && mount -t tmpfs -o size=1m tmpfs /media/script`
 
 `wget -P /media/script https://raw.githubusercontent.com/mediabots/Linux-to-Windows-with-QEMU/master/mediabots_Linux-to-Windows.sh`
